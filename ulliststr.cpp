@@ -1,11 +1,7 @@
-#include <iostream>
-#include <ostream>
-#include <cstdlib>
 #include <cstddef>
 #include <stdexcept>
 #include "ulliststr.h"
 
-using namespace std;
 
 ULListStr::ULListStr()
 {

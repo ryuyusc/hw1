@@ -85,6 +85,7 @@ void ULListStr::pop_back() {
         Item* temp = tail_;
         tail_ = tail_->prev;
         delete temp;
+        tail_->next = NULL;
       }
     }
   }
